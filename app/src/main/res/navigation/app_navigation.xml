@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings_navigation"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.gt.gettogether.ui.login.LoginFragment"
+        tools:layout="@layout/login_layout">
+
+        <action
+            android:id="@+id/go_to_meetings"
+            app:destination="@id/meetings" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/meetings"
+        android:name="com.gt.gettogether.ui.meetings.MeetingsFragment"
+        tools:layout="@layout/meetings_layout">
+
+        <action
+            android:id="@+id/go_to_details"
+            app:destination="@id/meeting_details" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/meeting_details"
+        android:name="com.gt.gettogether.ui.meetings.MeetingDetailsFragment"
+        tools:layout="@layout/meetings_details_layout">
+
+        <action
+            android:id="@+id/go_to_chat"
+            app:destination="@id/chat" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/chat"
+        android:name="com.gt.gettogether.ui.chat.ChatFragment"
+        tools:layout="@layout/chat_layout">
+
+        <action
+            android:id="@+id/logout"
+            app:destination="@id/login" />
+
+    </fragment>
+
+
+</navigation>

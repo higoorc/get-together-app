@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Get Together</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="singIn">Login</string>
+    <string name="singUp">Create new account</string>
+    <string name="welcome_1">Welcome to our store, let\'s see how it works...</string>
+    <string name="welcome_2">First, you need to see what you want to see...</string>
+    <string name="next">Next</string>
+    <string name="instructions_1">Instructions 1</string>
+    <string name="instructions_2">Instructions 2</string>
+    <string name="add_item">Add Item</string>
+    <string name="shoe_name">Shoe Name</string>
+    <string name="shoe_company">Company</string>
+    <string name="shoe_size">Shoe SIze</string>
+    <string name="shoe_description">Shoe Description</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="message_image_view">Message image view</string>
+    <string name="add_mesage_image_view">Add Mesage Image View</string>
+    <string name="say_something">Say something...</string>
+    <string name="send_button">Send button</string>
+</resources>
